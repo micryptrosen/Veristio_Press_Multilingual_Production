@@ -11,5 +11,6 @@
 | A4B | Spanish Draft Revision or Native Review Prep | Complete With Native Review Conditions | 2026-05-23 | 2026-05-23 | Draft V2, revision resolution log, native-review prep packet, and READY_FOR_NATIVE_LANGUAGE_REVIEW_WITH_CONDITIONS decision recorded; named reviews and release gates remain pending |
 | A4C | Spanish Native Review Assignment or Prep | Complete With Reviewer Pending | 2026-05-23 | 2026-05-23 | Native-review assignment, instructions, checklist, and status decision recorded; no named native-language reviewer assigned; release gates remain pending |
 | A4D | Spanish Native Review Execution or Hold | Complete With Reviewer Hold | 2026-05-23 | 2026-05-23 | No named native-language reviewer documented; native review held with HOLD_FOR_NATIVE_REVIEWER_ASSIGNMENT; publication/release remains blocked |
-| A4E | Spanish Native Review Gap Repair | Planned | TBD | TBD | Repair named native-language reviewer assignment evidence or keep the lane held |
+| A4E | Spanish Native Review Gap Repair | Complete With Operator Selection Hold | 2026-05-23 | 2026-05-23 | Reviewer-program package created for qualification, onboarding, sample evaluation, and assignment documentation; no reviewer assigned |
+| A4F | Spanish Reviewer Selection or Native Review Execution | Planned | TBD | TBD | Select and document a real native-language reviewer or keep native review held; execute review only with documented reviewer evidence |
 | A5 | Multi-language Expansion | Planned | TBD | TBD | Replicate controls for additional target languages after Spanish process proof |

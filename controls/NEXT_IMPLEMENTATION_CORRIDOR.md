@@ -1,7 +1,7 @@
 # Next Implementation Corridor
 
 ## Corridor Goal
-VERISTIO_PRESS_BOOK_1_SPANISH_NATIVE_REVIEW_GAP_REPAIR_V1
+VERISTIO_PRESS_BOOK_1_SPANISH_REVIEWER_SELECTION_OR_NATIVE_REVIEW_EXECUTION_V1
 
 ## Selected Candidate
 - Candidate ID: `CANDIDATE-001`
@@ -12,25 +12,26 @@ VERISTIO_PRESS_BOOK_1_SPANISH_NATIVE_REVIEW_GAP_REPAIR_V1
 - English lock version: `BOOK1-CH01-EN-LOCK-V1`
 - Locked source commit: `bd0441d4a5cf8e5862a61421b3d515eb079afee4`
 - Reviewer coverage decision: `PROVISIONAL_INTERNAL_REVIEW_ALLOWED_FOR_DRAFT_ONLY`
-- Draft status: `ES_TRANSLATION_DRAFT_V2_NATIVE_REVIEW_HELD_FOR_REVIEWER_ASSIGNMENT`
+- Draft status: `ES_TRANSLATION_DRAFT_V2_NATIVE_REVIEW_HELD_FOR_OPERATOR_SELECTION`
 - Review status decision: `PROVISIONAL_REVIEW_PASS_WITH_REVISIONS_REQUIRED`
 - Terminology pass status: `SEEDED_INTERNAL_REVISIONS_APPLIED_NAMED_REVIEW_PENDING`
 - Post-revision status decision: `READY_FOR_NATIVE_LANGUAGE_REVIEW_WITH_CONDITIONS`
 - Native-review prep status: `NATIVE_REVIEW_PREP_READY_WITH_CONDITIONS`
 - Native-review assignment status: `NATIVE_REVIEW_PACKET_READY_REVIEWER_PENDING`
 - Native-review execution/hold decision: `HOLD_FOR_NATIVE_REVIEWER_ASSIGNMENT`
-- Native-review status decision: `HOLD_FOR_NATIVE_REVIEWER_ASSIGNMENT`
+- Native-review gap repair status: `HOLD_FOR_OPERATOR_REVIEWER_SELECTION`
 
 ## Immediate Next Steps
-1. Locate and document a real named native-language reviewer, or keep the native-review lane held.
-2. Repair reviewer assignment evidence before any native-language review execution.
-3. Keep technical review routing separate and pending until reviewer coverage exists.
-4. Keep final sync/proof, metadata/ISBN, proof, and release gates pending.
-5. Keep publication/release blocked until human/native/final review and all release gates pass.
+1. Operator selects a real native-language reviewer or keeps the lane held.
+2. Record reviewer qualification, confidentiality/IP acknowledgement, AI-use boundary acknowledgement, and assignment evidence using the reviewer-program template.
+3. Execute native-language review only after reviewer assignment evidence is documented.
+4. Keep technical review routing separate and pending until reviewer coverage exists.
+5. Keep final sync/proof, metadata/ISBN, proof, and release gates pending.
+6. Keep publication/release blocked until human/native/final review and all release gates pass.
 
 ## Exit Criteria
-- Reviewer assignment evidence is repaired or the hold is reaffirmed.
-- Draft V2 review questions remain available for the eventual reviewer.
-- Technical review remains pending unless separately assigned.
+- A real reviewer is selected and documented, or the native-review lane remains held.
+- The assignment record includes reviewer identity, scope, date, qualification basis, acknowledgements, and publication/release block acknowledgement.
+- Native review is not treated as performed unless findings and a decision artifact are created by the documented reviewer.
 - No Book 1 repo mutation occurs.
 - No publication/release readiness is claimed.

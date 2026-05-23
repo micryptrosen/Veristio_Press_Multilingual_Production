@@ -1,7 +1,7 @@
 # Book 1 Spanish Pilot Gap Log v1
 
 ## Gap Log Scope
-This log records blockers and conditions for the Book 1 Spanish pilot. It does not resolve Book 1 manuscript authority, does not edit Book 1, and does not begin translation.
+This log records blockers and conditions for the Book 1 Spanish pilot. It does not resolve Book 1 manuscript authority, does not edit Book 1, and does not claim publication or release readiness.
 
 | gap_id | area | status | evidence | required closure |
 |---|---|---|---|---|
@@ -12,11 +12,11 @@ This log records blockers and conditions for the Book 1 Spanish pilot. It does n
 | BOOK1-ES-GAP-005 | Figures/tables/captions | CLOSED_FOR_CHAPTER_1 | Book 1 reports no image, figure, table, caption, or chart asset in Chapter 1. | Reopen only if later Book 1 source changes add localization assets. |
 | BOOK1-ES-GAP-006 | Permissions/rights | CONDITION_CARRIED | Book 1 reports no third-party excerpts, figures, tables, captions, lyrics, quoted permissions materials, or named acknowledgment permissions in Chapter 1; final publication permissions remain pending. | Keep final permissions/publication readiness blocked until later release gates. |
 | BOOK1-ES-GAP-007 | Metadata/ISBN | OPEN_BLOCKING | Publication decision packet shows legal/entity/ISBN/publisher-of-record decisions pending and no ISBN is assigned. | Record Spanish edition metadata/ISBN readiness as pending or close required legal/operator decisions before release gates. |
-| BOOK1-ES-GAP-008 | Reviewer availability | HOLD_FOR_NATIVE_REVIEWER_ASSIGNMENT | Native-review assignment, instructions, checklist, execution/hold record, and hold record exist; no named native-language reviewer is assigned. | Assign named reviewers before terminology/native/technical/final sync/proof result claims or release readiness can be claimed. |
+| BOOK1-ES-GAP-008 | Reviewer availability | HOLD_FOR_OPERATOR_REVIEWER_SELECTION | Native-review execution remains held; reviewer gap repair package now defines qualification, onboarding, sample protocol, and assignment template. No named native-language reviewer is assigned. | Operator must select and document a real reviewer before any native-review result or release readiness can be claimed. |
 | BOOK1-ES-GAP-009 | Change sync | READY_AS_BASELINE_LOG | Book 1 lock `BOOK1-CH01-EN-LOCK-V1` is recorded; no post-refresh English changes are logged in this repo. | Use the Book 1 change-sync instance if English changes occur after packet refresh. |
 | BOOK1-ES-GAP-010 | Release readiness | BLOCKED_BY_DESIGN | Spanish output cannot be publication-ready until final sync, proof, metadata, ISBN, and release approval pass. | Preserve release block through all downstream translation and QA gates. |
 | BOOK1-ES-GAP-011 | Source-note apparatus | CONDITION_CARRIED | Book 1 keeps final book-wide source-note, endnote, bibliography, or citation apparatus deferred outside this Chapter 1 readiness decision. | Preserve Book 1 source authority and route source-note changes through sync before any final release gate. |
-| BOOK1-ES-GAP-012 | Draft review queue | HOLD_FOR_NATIVE_REVIEWER_ASSIGNMENT | Draft V2, native-review prep packet, assignment, instructions, checklist, status decision, execution/hold record, and hold record exist for Chapter 1. | Assign named reviewer and perform native-language review before any native-review result is claimed. |
+| BOOK1-ES-GAP-012 | Draft review queue | HOLD_FOR_OPERATOR_REVIEWER_SELECTION | Draft V2, native-review prep packet, assignment, instructions, checklist, status decision, execution/hold record, hold record, and reviewer gap repair package exist for Chapter 1. | Assign named reviewer and perform documented native-language review before any native-review result is claimed. |
 
 ## Current Intake Decision
 READY_WITH_CONDITIONS
@@ -24,5 +24,14 @@ READY_WITH_CONDITIONS
 ## Draft Readiness Gate
 READY_WITH_CONDITIONS
 
+## Reviewer Coverage Decision
+PROVISIONAL_INTERNAL_REVIEW_ALLOWED_FOR_DRAFT_ONLY
+
+## Native Reviewer Gap Repair Status
+HOLD_FOR_OPERATOR_REVIEWER_SELECTION
+
+## Reviewer Assignment Status
+NATIVE_REVIEW_PACKET_READY_REVIEWER_PENDING
+
 ## Next Corridor
-VERISTIO_PRESS_BOOK_1_SPANISH_NATIVE_REVIEW_GAP_REPAIR_V1
+VERISTIO_PRESS_BOOK_1_SPANISH_REVIEWER_SELECTION_OR_NATIVE_REVIEW_EXECUTION_V1
