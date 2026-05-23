@@ -1,24 +1,25 @@
 # Next Implementation Corridor
 
 ## Corridor Goal
-VERISTIO_PRESS_SPANISH_PILOT_TRANSLATION_PACKET_PREPARATION_V1
+VERISTIO_PRESS_BOOK_1_EN_TRANSLATION_READY_GAP_CLOSURE_V1
 
 ## Selected Candidate
 - Candidate ID: `CANDIDATE-001`
 - Book: `Human Creativity + AI Synthesis`
 - Source repo path: `D:\Dev\CGPT\Projects\Veristio\Book 1 Human Creativity + AI`
-- Selection status: `SELECT_WITH_CONDITIONS`
+- Candidate chapter: Chapter 1 - Work Changed Before Most People Noticed
+- Intake decision: `HOLD_FOR_EN_TRANSLATION_READY`
 
 ## Immediate Next Steps
-1. Select the first Book 1 pilot chapter or chapter set for packet preparation.
-2. Confirm selected chapter(s) are marked `EN_TRANSLATION_READY` by the source Book repo before intake.
-3. Record source branch, source commit, source chapter path, and English lock version.
-4. Complete the translation packet template without copying canonical manuscript text into this repo.
-5. Log Spanish glossary gaps, reviewer availability, claims/citations, figures/tables/captions, permissions/rights, and metadata/ISBN readiness.
-6. Prepare tracker and change-sync rows while keeping translation execution out of packet-preparation scope.
+1. Obtain or create Book 1 repo-truth evidence that the selected chapter is `EN_TRANSLATION_READY`.
+2. Record an explicit English lock version for the selected chapter.
+3. Declare selected-chapter claim/citation status and unresolved source issues.
+4. Decide whether preliminary Book 1 EN-ES glossary gaps are sufficient for draft-packet preparation.
+5. Assign Spanish terminology, native-language, and technical reviewers or log the reviewer gap.
+6. Carry metadata/ISBN status as pending/not ready until separate release gates close.
 
 ## Exit Criteria
-- Pilot chapter packet is complete and references a traceable English lock.
-- Authority boundary is explicit: Book repo owns canonical English manuscript; this repo owns multilingual process/governance.
-- Intake checklist is complete or blockers are logged.
+- Selected chapter has explicit `EN_TRANSLATION_READY` evidence.
+- Source branch, source commit, chapter path, and English lock version are recorded.
+- Packet blockers are either closed or consciously carried into a `READY_WITH_CONDITIONS` decision.
 - No Spanish translation drafting has occurred.

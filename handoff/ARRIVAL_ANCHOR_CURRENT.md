@@ -1,7 +1,7 @@
 # Arrival Anchor (Current)
 
 ## Anchor
-A1 - Veristio Press Spanish Pilot Book Selection v1
+A1 - Veristio Press Spanish Pilot Translation Packet Preparation v1
 
 ## Canonical Repository
 D:\Dev\CGPT\Projects\Veristio\Veristio_Press_Multilingual_Production
@@ -9,11 +9,13 @@ D:\Dev\CGPT\Projects\Veristio\Veristio_Press_Multilingual_Production
 ## Source Doctrine
 Parallel Trailing Localization with English canonical source authority in Book repos and process/governance authority in this Multilingual Production repo.
 
-## Current Selection
-- Top candidate: `CANDIDATE-001` - Human Creativity + AI Synthesis.
+## Current Packet Posture
+- Selected candidate: `CANDIDATE-001` - Human Creativity + AI Synthesis.
 - Source repo path: `D:\Dev\CGPT\Projects\Veristio\Book 1 Human Creativity + AI`.
-- Selection status: `SELECT_WITH_CONDITIONS`.
-- Next corridor: `VERISTIO_PRESS_SPANISH_PILOT_TRANSLATION_PACKET_PREPARATION_V1`.
+- Source commit inspected: `bd0441d4a5cf8e5862a61421b3d515eb079afee4`.
+- Candidate chapter: Chapter 1 - Work Changed Before Most People Noticed.
+- Intake decision: `HOLD_FOR_EN_TRANSLATION_READY`.
+- Next corridor: `VERISTIO_PRESS_BOOK_1_EN_TRANSLATION_READY_GAP_CLOSURE_V1`.
 
 ## Continuation Instruction
-Resume from `controls/CURRENT_WORKING_LANE.md`, run all three verifiers, and preserve the Book-repo canonical manuscript authority boundary. Packet preparation may begin only by reference to source repo path, branch, commit, chapter path, and English lock version; do not copy canonical manuscript text into this repo.
+Resume from `controls/CURRENT_WORKING_LANE.md`, run all four verifiers, and preserve the Book 1 canonical manuscript authority boundary. Do not begin Spanish translation until a later packet admits a chapter with `EN_TRANSLATION_READY`, English lock version, reviewer assignment, glossary readiness, and required claims/citations/metadata/ISBN gate status.
