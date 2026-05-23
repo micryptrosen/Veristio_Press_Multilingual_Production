@@ -16,6 +16,7 @@ This log records blockers and conditions for the Book 1 Spanish pilot. It does n
 | BOOK1-ES-GAP-009 | Change sync | READY_AS_BASELINE_LOG | Book 1 lock `BOOK1-CH01-EN-LOCK-V1` is recorded; no post-refresh English changes are logged in this repo. | Use the Book 1 change-sync instance if English changes occur after packet refresh. |
 | BOOK1-ES-GAP-010 | Release readiness | BLOCKED_BY_DESIGN | Spanish output cannot be publication-ready until final sync, proof, metadata, ISBN, and release approval pass. | Preserve release block through all downstream translation and QA gates. |
 | BOOK1-ES-GAP-011 | Source-note apparatus | CONDITION_CARRIED | Book 1 keeps final book-wide source-note, endnote, bibliography, or citation apparatus deferred outside this Chapter 1 readiness decision. | Preserve Book 1 source authority and route source-note changes through sync before any final release gate. |
+| BOOK1-ES-GAP-012 | Draft review queue | OPEN_REVIEW | Provisional draft artifact and review queue exist for Chapter 1. | Complete terminology, native-language, technical, final sync/proof, metadata/ISBN, and release gate reviews before downstream readiness claims. |
 
 ## Current Intake Decision
 READY_WITH_CONDITIONS
@@ -24,4 +25,4 @@ READY_WITH_CONDITIONS
 READY_WITH_CONDITIONS
 
 ## Next Corridor
-VERISTIO_PRESS_BOOK_1_SPANISH_TRANSLATION_DRAFT_PACKET_V1
+VERISTIO_PRESS_BOOK_1_SPANISH_DRAFT_REVIEW_AND_TERMINOLOGY_PASS_V1

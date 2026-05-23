@@ -41,7 +41,9 @@ Book 1 is the selected Spanish pilot candidate and Chapter 1 is the preferred ca
 Book 1 remains the canonical English manuscript authority. This Multilingual Production repo owns packet governance, gap logging, tracker readiness, change-sync readiness, metadata/ISBN coordination status, and Spanish pilot workflow controls only. No Book 1 repo mutation is authorized by this decision.
 
 ## Translation Status
-No Spanish translation drafting occurred in this tranche.
+`PROVISIONAL_DRAFT_ONLY_REVIEW_PENDING`
+
+A target-language draft artifact is recorded for review routing only. It is not human reviewed, not native reviewed, not final, and not publication ready.
 
 ## Next Corridor
-VERISTIO_PRESS_BOOK_1_SPANISH_TRANSLATION_DRAFT_PACKET_V1
+VERISTIO_PRESS_BOOK_1_SPANISH_DRAFT_REVIEW_AND_TERMINOLOGY_PASS_V1

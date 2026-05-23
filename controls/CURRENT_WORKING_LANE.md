@@ -1,28 +1,27 @@
 # Current Working Lane
 
 ## Lane
-A1 - Veristio Press Book 1 Spanish Reviewer Assignment v1
+A1 - Veristio Press Book 1 Spanish Translation Draft Packet v1
 
 ## Doctrine
 Parallel Trailing Localization
 
 ## Current Tranche Scope
-- Ground the Multilingual Production repo and Book 1 Spanish packet surfaces.
-- Read glossary/reviewer setup surfaces and current draft readiness gate.
-- Record reviewer assignment posture without inventing named human reviewers.
-- Create reviewer assignment register, coverage decision, provisional review boundary, and receipt.
-- Update draft readiness gate to the posture repo truth supports.
-- Preserve Spanish translation as not started in this tranche.
-- Preserve Book 1 as canonical English manuscript/readiness/claims/citations/permissions owner.
-- Preserve publication/release as blocked pending human/native/final review and release gates.
+- Ground the Multilingual Production repo and Book 1 Spanish packet/readiness/reviewer/glossary surfaces.
+- Read the locked Book 1 Chapter 1 source at `bd0441d4a5cf8e5862a61421b3d515eb079afee4` without editing Book 1.
+- Create a controlled provisional Spanish draft packet and review-routing artifacts.
+- Store Spanish target draft text and metadata, not duplicated full English source text.
+- Preserve reviewer coverage as `PROVISIONAL_INTERNAL_REVIEW_ALLOWED_FOR_DRAFT_ONLY`.
+- Preserve terminology, native-language, technical, final sync/proof, metadata, ISBN, proof, and release gates as pending.
+- Preserve publication/release as blocked.
 - Install verifier coverage and execute required gates.
 - Commit and push to `origin/main` with parity checks.
 
 ## Stop Conditions
 - Canonical Multilingual repo root or remote target is not the expected project.
 - Starting HEAD diverges from expected and divergence is not understood.
-- Setup would require inventing named human reviewers.
-- Setup would require beginning Spanish translation.
-- Any artifact claims Spanish publication readiness.
+- Book 1 locked source commit cannot be read.
+- Reviewer assignment state is not draft-allowed.
+- Draft packet would imply publication readiness or release readiness.
 - Verifier failure.
 - Unrelated dirty files appear.

@@ -1,7 +1,7 @@
 # Next Implementation Corridor
 
 ## Corridor Goal
-VERISTIO_PRESS_BOOK_1_SPANISH_TRANSLATION_DRAFT_PACKET_V1
+VERISTIO_PRESS_BOOK_1_SPANISH_DRAFT_REVIEW_AND_TERMINOLOGY_PASS_V1
 
 ## Selected Candidate
 - Candidate ID: `CANDIDATE-001`
@@ -11,19 +11,18 @@ VERISTIO_PRESS_BOOK_1_SPANISH_TRANSLATION_DRAFT_PACKET_V1
 - English state: `EN_TRANSLATION_READY_WITH_CONDITIONS`
 - English lock version: `BOOK1-CH01-EN-LOCK-V1`
 - Locked source commit: `bd0441d4a5cf8e5862a61421b3d515eb079afee4`
-- Intake decision: `READY_WITH_CONDITIONS`
 - Reviewer coverage decision: `PROVISIONAL_INTERNAL_REVIEW_ALLOWED_FOR_DRAFT_ONLY`
-- Draft readiness gate: `READY_WITH_CONDITIONS`
+- Draft status: `PROVISIONAL_DRAFT_ONLY_REVIEW_PENDING`
 
 ## Immediate Next Steps
-1. Create the Spanish translation draft packet for the locked Chapter 1 source under draft-only provisional review conditions.
-2. Carry seeded terminology as `SEEDED_PENDING_REVIEW`.
-3. Mark terminology, native-language, technical, and final sync/proof review as pending.
-4. Keep metadata/ISBN/legal/distribution/release status pending.
+1. Run terminology review against the seeded Book 1 Spanish terms.
+2. Run native-language review for readability, idiom, tone, and reader fit.
+3. Run technical review against the locked English source and Book 1 authority.
+4. Keep final sync/proof, metadata/ISBN, proof, and release gates pending.
 5. Keep publication/release blocked until human/native/final review and all release gates pass.
 
 ## Exit Criteria
-- Draft packet records source lock, authority boundary, and provisional review boundary.
+- Terminology findings are recorded.
+- Native-language and technical review issues are queued or resolved.
 - No Book 1 repo mutation occurs.
 - No publication/release readiness is claimed.
-- Reviewer gates remain visible as pending unless separately assigned and signed off.
