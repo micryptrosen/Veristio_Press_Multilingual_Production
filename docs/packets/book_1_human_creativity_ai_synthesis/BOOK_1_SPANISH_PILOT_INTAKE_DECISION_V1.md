@@ -32,8 +32,10 @@ Book 1 is the selected Spanish pilot candidate and Chapter 1 is the preferred ca
 ## Glossary And Reviewer Setup Result
 - Terminology seed: `SEEDED_PENDING_REVIEW`
 - Reviewer workflow: `CREATED`
-- Reviewer availability: `REVIEWERS_NOT_ASSIGNED`
-- Draft readiness gate: `HOLD_FOR_REVIEWER_AVAILABILITY`
+- Named reviewer assignment: `NO_NAMED_REVIEWERS_ASSIGNED`
+- Reviewer coverage decision: `PROVISIONAL_INTERNAL_REVIEW_ALLOWED_FOR_DRAFT_ONLY`
+- Draft readiness gate: `READY_WITH_CONDITIONS`
+- Publication/release boundary: blocked pending human/native/final review, final sync, proof, metadata, ISBN, and release gates.
 
 ## Authority Boundary
 Book 1 remains the canonical English manuscript authority. This Multilingual Production repo owns packet governance, gap logging, tracker readiness, change-sync readiness, metadata/ISBN coordination status, and Spanish pilot workflow controls only. No Book 1 repo mutation is authorized by this decision.
@@ -42,4 +44,4 @@ Book 1 remains the canonical English manuscript authority. This Multilingual Pro
 No Spanish translation drafting occurred in this tranche.
 
 ## Next Corridor
-VERISTIO_PRESS_BOOK_1_SPANISH_REVIEWER_ASSIGNMENT_V1
+VERISTIO_PRESS_BOOK_1_SPANISH_TRANSLATION_DRAFT_PACKET_V1

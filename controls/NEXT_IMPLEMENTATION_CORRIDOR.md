@@ -1,7 +1,7 @@
 # Next Implementation Corridor
 
 ## Corridor Goal
-VERISTIO_PRESS_BOOK_1_SPANISH_REVIEWER_ASSIGNMENT_V1
+VERISTIO_PRESS_BOOK_1_SPANISH_TRANSLATION_DRAFT_PACKET_V1
 
 ## Selected Candidate
 - Candidate ID: `CANDIDATE-001`
@@ -11,21 +11,19 @@ VERISTIO_PRESS_BOOK_1_SPANISH_REVIEWER_ASSIGNMENT_V1
 - English state: `EN_TRANSLATION_READY_WITH_CONDITIONS`
 - English lock version: `BOOK1-CH01-EN-LOCK-V1`
 - Locked source commit: `bd0441d4a5cf8e5862a61421b3d515eb079afee4`
-- Book 1 readiness governance HEAD: `db3e5b92784ab6e01c4882b283aaa78d22399a44`
 - Intake decision: `READY_WITH_CONDITIONS`
-- Draft readiness gate: `HOLD_FOR_REVIEWER_AVAILABILITY`
+- Reviewer coverage decision: `PROVISIONAL_INTERNAL_REVIEW_ALLOWED_FOR_DRAFT_ONLY`
+- Draft readiness gate: `READY_WITH_CONDITIONS`
 
 ## Immediate Next Steps
-1. Assign or explicitly log alternate coverage for the terminology reviewer.
-2. Assign or explicitly log alternate coverage for the native-language reviewer.
-3. Assign or explicitly log alternate coverage for the technical reviewer.
-4. Assign or explicitly log alternate coverage for the final sync/proof reviewer.
-5. Approve, revise, or defer the Book 1 Spanish terminology seed.
-6. Keep metadata/ISBN/legal/distribution/release status pending until separate release gates close.
+1. Create the Spanish translation draft packet for the locked Chapter 1 source under draft-only provisional review conditions.
+2. Carry seeded terminology as `SEEDED_PENDING_REVIEW`.
+3. Mark terminology, native-language, technical, and final sync/proof review as pending.
+4. Keep metadata/ISBN/legal/distribution/release status pending.
+5. Keep publication/release blocked until human/native/final review and all release gates pass.
 
 ## Exit Criteria
-- Reviewer availability is recorded for terminology, native-language, technical, and final sync/proof review.
-- Seeded terminology decisions are approved, revised, or deferred by the terminology reviewer.
-- Draft readiness gate can move from `HOLD_FOR_REVIEWER_AVAILABILITY` to `READY_FOR_TRANSLATION_DRAFT_PACKET` or `READY_WITH_CONDITIONS`.
-- Metadata/ISBN/proof/release gates remain visible as pending/not ready.
-- No Spanish translation drafting has occurred.
+- Draft packet records source lock, authority boundary, and provisional review boundary.
+- No Book 1 repo mutation occurs.
+- No publication/release readiness is claimed.
+- Reviewer gates remain visible as pending unless separately assigned and signed off.
