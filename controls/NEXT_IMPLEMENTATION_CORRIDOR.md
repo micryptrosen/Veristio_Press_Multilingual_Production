@@ -1,25 +1,30 @@
 # Next Implementation Corridor
 
 ## Corridor Goal
-VERISTIO_PRESS_BOOK_1_EN_TRANSLATION_READY_GAP_CLOSURE_V1
+VERISTIO_PRESS_BOOK_1_SPANISH_GLOSSARY_AND_REVIEWER_SETUP_V1
 
 ## Selected Candidate
 - Candidate ID: `CANDIDATE-001`
 - Book: `Human Creativity + AI Synthesis`
 - Source repo path: `D:\Dev\CGPT\Projects\Veristio\Book 1 Human Creativity + AI`
-- Candidate chapter: Chapter 1 - Work Changed Before Most People Noticed
-- Intake decision: `HOLD_FOR_EN_TRANSLATION_READY`
+- Selected chapter: Chapter 1 - Work Changed Before Most People Noticed
+- English state: `EN_TRANSLATION_READY_WITH_CONDITIONS`
+- English lock version: `BOOK1-CH01-EN-LOCK-V1`
+- Locked source commit: `bd0441d4a5cf8e5862a61421b3d515eb079afee4`
+- Book 1 readiness governance HEAD: `db3e5b92784ab6e01c4882b283aaa78d22399a44`
+- Intake decision: `READY_WITH_CONDITIONS`
 
 ## Immediate Next Steps
-1. Obtain or create Book 1 repo-truth evidence that the selected chapter is `EN_TRANSLATION_READY`.
-2. Record an explicit English lock version for the selected chapter.
-3. Declare selected-chapter claim/citation status and unresolved source issues.
-4. Decide whether preliminary Book 1 EN-ES glossary gaps are sufficient for draft-packet preparation.
-5. Assign Spanish terminology, native-language, and technical reviewers or log the reviewer gap.
-6. Carry metadata/ISBN status as pending/not ready until separate release gates close.
+1. Create or admit preliminary Book 1 EN-ES glossary/termbase entries for Chapter 1 high-salience terms.
+2. Assign or explicitly log Spanish terminology, native-language, and technical reviewer coverage.
+3. Confirm the Chapter 1 packet uses only `BOOK1-CH01-EN-LOCK-V1` at locked source commit `bd0441d4a5cf8e5862a61421b3d515eb079afee4`.
+4. Keep metadata/ISBN/legal/distribution/release status pending until separate release gates close.
+5. Keep final permissions/publication readiness blocked until downstream release controls pass.
+6. Keep final source-note apparatus governed by Book 1 unless separately admitted through sync/governance.
 
 ## Exit Criteria
-- Selected chapter has explicit `EN_TRANSLATION_READY` evidence.
-- Source branch, source commit, chapter path, and English lock version are recorded.
-- Packet blockers are either closed or consciously carried into a `READY_WITH_CONDITIONS` decision.
+- Spanish terminology gaps are recorded or assigned for the selected locked chapter.
+- Spanish terminology, native-language, and technical reviewer coverage is assigned or explicitly blocked.
+- Tracker and change-sync surfaces remain aligned with `READY_WITH_CONDITIONS`.
+- Metadata/ISBN/proof/release gates remain visible as pending/not ready.
 - No Spanish translation drafting has occurred.

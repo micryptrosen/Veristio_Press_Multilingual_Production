@@ -98,8 +98,7 @@ $requiredPacketPhrases = @(
     'source_branch: main',
     'source_commit: bd0441d4a5cf8e5862a61421b3d515eb079afee4',
     'Book 1 repo remains canonical for English manuscript text',
-    'selected_chapter_path_or_status:',
-    'HOLD_FOR_EN_TRANSLATION_READY'
+    'selected_chapter_path_or_status:'
 )
 
 foreach ($phrase in $requiredPacketPhrases) {
@@ -128,21 +127,21 @@ if (Test-Path -LiteralPath $intakeDecisionFile) {
 
 Assert-FileContains -File $chapterSelectionFile -Needle 'selected_candidate_path:' -Label 'Chapter selection check'
 Assert-FileContains -File $gapLogFile -Needle 'BOOK1-ES-GAP-001' -Label 'Gap log check'
-Assert-FileContains -File $receiptFile -Needle 'HOLD_FOR_EN_TRANSLATION_READY' -Label 'Receipt decision check'
 
 $holdCorridor = 'VERISTIO_PRESS_BOOK_1_EN_TRANSLATION_READY_GAP_CLOSURE_V1'
+$conditionsCorridor = 'VERISTIO_PRESS_BOOK_1_SPANISH_GLOSSARY_AND_REVIEWER_SETUP_V1'
 $readyCorridor = 'VERISTIO_PRESS_BOOK_1_SPANISH_TRANSLATION_DRAFT_PACKET_V1'
 $corridorFound = $false
 foreach ($file in @($packetFile, $chapterSelectionFile, $gapLogFile, $intakeDecisionFile, $receiptFile)) {
     if (Test-Path -LiteralPath $file) {
         $content = Get-Content -LiteralPath $file -Raw
-        if ($content -match [regex]::Escape($holdCorridor) -or $content -match [regex]::Escape($readyCorridor)) {
+        if ($content -match [regex]::Escape($holdCorridor) -or $content -match [regex]::Escape($conditionsCorridor) -or $content -match [regex]::Escape($readyCorridor)) {
             $corridorFound = $true
         }
     }
 }
 if (-not $corridorFound) {
-    Add-Failure 'Neither ready nor hold next corridor is present in packet preparation surfaces.'
+    Add-Failure 'No recognized ready, condition, or hold next corridor is present in packet preparation surfaces.'
 }
 
 $filesToScan = @(
