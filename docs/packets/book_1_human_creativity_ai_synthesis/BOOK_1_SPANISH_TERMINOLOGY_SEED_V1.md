@@ -17,9 +17,9 @@ Book 1 repo remains canonical for English manuscript text, claims, citations, pe
 
 ## Termbase Status
 
-`SEEDED_PENDING_REVIEW`
+`SEEDED_INTERNAL_PASS_WITH_REVISIONS_REQUIRED`
 
-This seed is not a final reviewer-approved glossary. It provides initial controlled terms for reviewer assignment, terminology review, and draft-packet preparation decisions.
+This seed is not a final reviewer-approved glossary. It provides initial controlled terms for reviewer assignment, internal terminology review, revision planning, and draft-packet preparation decisions.
 
 ## Seed Terms
 
@@ -61,9 +61,26 @@ This seed is not a final reviewer-approved glossary. It provides initial control
 | B1-ES-TERM-034 | Prompt | prompt | Seeded Pending Review | YES | Decide whether to preserve English technical loanword. |
 | B1-ES-TERM-035 | Review | revision | Seeded Pending Review | YES | Workflow term. |
 
+## Internal Terminology Pass V1
+
+- Pass artifact: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_SPANISH_TERMINOLOGY_PASS_V1.md`
+- Pass status: `PROVISIONAL_TERMINOLOGY_PASS_WITH_REVISIONS_REQUIRED`
+- Coverage decision: `PROVISIONAL_INTERNAL_REVIEW_ALLOWED_FOR_DRAFT_ONLY`
+- Review status decision: `PROVISIONAL_REVIEW_PASS_WITH_REVISIONS_REQUIRED`
+
+The internal pass preserved the title and brand treatments, confirmed `IA` for body-level AI references with title/brand exceptions, and carried high-salience terms into the revision queue. The following terms remain held for reviewer/operator decision before terminology readiness can be claimed:
+
+- `source-of-truth edition`
+- `authority gate`
+- `evidence trail`
+- `source truth`
+- `teammanship`
+- `prompt`
+- `publication-readiness gate`
+
 ## Reviewer Gate
 
-The terminology reviewer must approve, revise, or explicitly defer each seeded term before any Spanish draft packet claims terminology readiness.
+The terminology reviewer must approve, revise, or explicitly defer each seeded term before any Spanish draft packet claims terminology readiness. The internal pass is useful for revision routing only and is not named reviewer approval.
 
 ## Non-Translation Boundary
 
@@ -71,4 +88,4 @@ This file contains terms and workflow notes only. It does not translate Chapter 
 
 ## Next Corridor
 
-`VERISTIO_PRESS_BOOK_1_SPANISH_REVIEWER_ASSIGNMENT_V1`
+`VERISTIO_PRESS_BOOK_1_SPANISH_DRAFT_REVISION_OR_NATIVE_REVIEW_PREP_V1`

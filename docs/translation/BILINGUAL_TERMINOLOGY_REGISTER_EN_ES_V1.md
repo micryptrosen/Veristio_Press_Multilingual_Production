@@ -13,10 +13,12 @@
 
 ## Book 1 Spanish Pilot Terminology Seed
 
-- Status: `SEEDED_PENDING_REVIEW`
+- Status: `SEEDED_INTERNAL_PASS_WITH_REVISIONS_REQUIRED`
 - Seed file: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_SPANISH_TERMINOLOGY_SEED_V1.md`
+- Internal pass file: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_SPANISH_TERMINOLOGY_PASS_V1.md`
 - Scope: Book 1 Chapter 1 Spanish pilot terminology and title treatment.
 - English lock version: `BOOK1-CH01-EN-LOCK-V1`
 - Locked source commit: `bd0441d4a5cf8e5862a61421b3d515eb079afee4`
-- Reviewer requirement: seeded terms must be approved, revised, or deferred by the terminology reviewer before terminology readiness can be claimed.
+- Reviewer requirement: seeded terms must be approved, revised, or deferred by the terminology reviewer/operator before terminology readiness can be claimed.
+- Current pass result: internal provisional terminology pass recorded with revisions required; it is not final reviewer approval.
 - Boundary: Book 1 remains canonical for English manuscript source; this register references Spanish workflow terms only.
