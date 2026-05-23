@@ -1,15 +1,15 @@
 # Current Working Lane
 
 ## Lane
-A1 - Veristio Press Book 1 Spanish Native Review Assignment or Prep v1
+A1 - Veristio Press Book 1 Spanish Native Review Execution or Hold v1
 
 ## Doctrine
 Parallel Trailing Localization
 
 ## Current Tranche Scope
-- Ground the Multilingual Production repo and prior Book 1 Draft V2/native-review prep surfaces.
-- Create native-review assignment, instructions, checklist, and status decision artifacts.
-- Record that no named native-language reviewer is assigned in repo truth.
+- Ground the Multilingual Production repo and prior Book 1 Draft V2/native-review assignment surfaces.
+- Execute native-language review only if a real named native-language reviewer is documented.
+- Record `HOLD_FOR_NATIVE_REVIEWER_ASSIGNMENT` when no named reviewer exists.
 - Preserve reviewer coverage as `PROVISIONAL_INTERNAL_REVIEW_ALLOWED_FOR_DRAFT_ONLY`.
 - Keep named human, native-language, technical, final sync/proof, metadata, ISBN, proof, and release gates pending.
 - Preserve publication/release as blocked.
@@ -19,9 +19,9 @@ Parallel Trailing Localization
 ## Stop Conditions
 - Canonical Multilingual repo root or remote target is not the expected project.
 - Starting HEAD diverges from expected and divergence is not understood.
-- Draft V2 or native-review prep packet is missing.
-- Assigning a named reviewer would require guessing or inventing one.
+- Draft V2 or native-review assignment packet is missing.
+- Native-language review would require guessing or inventing a reviewer.
 - Native-language review result would be implied without actual documented review.
-- Assignment artifacts would imply publication readiness or release readiness.
+- Hold artifacts would imply publication readiness or release readiness.
 - Verifier failure.
 - Unrelated dirty files appear.
