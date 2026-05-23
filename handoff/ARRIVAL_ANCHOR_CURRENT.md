@@ -11,13 +11,6 @@ Parallel Trailing Localization with English canonical source authority in Book r
 
 Book 1 remains the canonical English owner for manuscript text, readiness, claims, citations, and permissions.
 
-## Mandatory Publishing Core Multilingual Contract Dimension
-Multilingual/localization is a cross-cutting Publishing Core contract dimension, not isolated to the Multilingual Production pillar.
-
-Every Publishing Core contract handshake must carry multilingual/localization fields when a decision touches editions, metadata, review, release, upload, distribution, proof, or format readiness. Required fields include source language, target language, locale, translation status, terminology/glossary dependency, native-language reviewer state, localization notes, source-lock version used for translation, translation packet lineage, metadata language/edition fields, multilingual QA/advisory boundaries, publication gates per language, edition, and format, and blocked/deferred states for missing language review.
-
-Book 1 Spanish is `FUTURE_PILOT_CANDIDATE_ONLY` for Publishing Core contract alignment. It remains a Multilingual Production pilot workflow with draft/review artifacts, but it carries no publication, release, distribution, or final-edition clearance unless required native-language review, terminology review, technical review, final sync/proof, metadata, ISBN, permission, source-lock, QA, proof, edition/format, and release gates are explicitly satisfied.
-
 ## Current Packet Posture
 - Selected candidate: `CANDIDATE-001` - Human Creativity + AI Synthesis.
 - Source repo path: `D:\Dev\CGPT\Projects\Veristio\Book 1 Human Creativity + AI`.
