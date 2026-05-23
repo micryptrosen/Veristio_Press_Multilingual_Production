@@ -2,17 +2,16 @@
 
 ## Planning Snapshot
 - Date: 2026-05-23
-- Phase: A1 Project Birth, Integration Contracting, Pilot Selection, Packet Preparation, Packet Refresh, Glossary/Reviewer Setup, Reviewer Assignment, Draft Packet, First Internal Review, Draft V2 Prep, Native Review Assignment Prep, Native Review Hold, and Native Reviewer Gap Repair
-- Primary Objective: Create a reviewer-program gap repair package so Veristio can select, qualify, onboard, and document a real native-language reviewer without pretending review has occurred.
+- Phase: A1 Project Birth, Integration Contracting, Pilot Selection, Packet Preparation, Packet Refresh, Glossary/Reviewer Setup, Reviewer Assignment, Draft Packet, First Internal Review, Draft V2 Prep, Native Review Assignment Prep, Native Review Hold, Native Reviewer Gap Repair, and Draft V3 Claude Advisory Corrections
+- Primary Objective: Apply Claude advisory orthographic/accent and safe phrasing corrections to Book 1 Chapter 1 Spanish Draft V2 to create Draft V3 without pretending human/native/final review has occurred.
 
 ## Planned Deliverables
-- Spanish native reviewer gap repair plan.
-- Spanish native reviewer qualification criteria.
-- Spanish native reviewer onboarding packet.
-- Spanish native reviewer evaluation sample protocol.
-- Spanish native reviewer assignment record template.
-- Book 1 Spanish native review gap repair receipt.
-- Native reviewer gap repair verifier and gate execution.
+- Book 1 Chapter 1 Spanish Draft V3.
+- Claude advisory correction pass record.
+- Draft V3 change log.
+- Book 1 Spanish Draft V3 Claude advisory corrections receipt.
+- Draft V3 verifier and gate execution.
+- Updated review queue, revision queue, tracker, gap log, native-review status decision, controls, and handoff.
 
 ## Current Packet Posture
 - Selected candidate: `CANDIDATE-001` - Human Creativity + AI Synthesis.
@@ -21,11 +20,12 @@
 - English lock version: `BOOK1-CH01-EN-LOCK-V1`.
 - Locked source commit: `bd0441d4a5cf8e5862a61421b3d515eb079afee4`.
 - Reviewer coverage decision: `PROVISIONAL_INTERNAL_REVIEW_ALLOWED_FOR_DRAFT_ONLY`.
-- Draft status: `ES_TRANSLATION_DRAFT_V2_NATIVE_REVIEW_HELD_FOR_OPERATOR_SELECTION`.
+- Draft status: `ES_TRANSLATION_DRAFT_V3_ADVISORY_CORRECTED_NATIVE_REVIEW_HELD_FOR_OPERATOR_SELECTION`.
+- Claude advisory correction status: `CLAUDE_ADVISORY_CORRECTIONS_APPLIED_TO_DRAFT_V3`.
 - Review status decision: `PROVISIONAL_REVIEW_PASS_WITH_REVISIONS_REQUIRED`.
 - Post-revision status decision: `READY_FOR_NATIVE_LANGUAGE_REVIEW_WITH_CONDITIONS`.
-- Terminology status: `SEEDED_INTERNAL_REVISIONS_APPLIED_NAMED_REVIEW_PENDING`.
-- Revision queue: internally resolved for V2, named review pending.
+- Terminology status: `CLAUDE_ADVISORY_CORRECTIONS_APPLIED_NAMED_REVIEW_PENDING`.
+- Revision queue: advisory corrections applied, named/native review pending.
 - Native-review prep: ready with conditions.
 - Native-review assignment status: `NATIVE_REVIEW_PACKET_READY_REVIEWER_PENDING`.
 - Native-review execution/hold decision: `HOLD_FOR_NATIVE_REVIEWER_ASSIGNMENT`.
@@ -39,11 +39,12 @@
 - Required next corridor: `VERISTIO_PRESS_BOOK_1_SPANISH_REVIEWER_SELECTION_OR_NATIVE_REVIEW_EXECUTION_V1`.
 
 ## Risk Controls
-- Stop on path, remote, or HEAD mismatch.
-- Stop if native-review hold or assignment surfaces are missing.
-- Stop if reviewer selection would require guessing or inventing a person.
+- Stop on path or remote mismatch.
+- Treat known HEAD mismatch as understood only because later reviewer-copy and correction-revert commits are already present.
+- Stop if Draft V2 is missing.
+- Stop if advisory correction input would require claiming named human/native/final review.
 - Stop if any artifact implies canonical English authority transfer.
 - Stop if any artifact claims human/native/final review completion.
 - Stop if any artifact claims Spanish publication readiness.
 - Stop on verifier failures.
-- Stop on unrelated dirty files.
+- Leave pre-existing untracked advisory input unstaged unless operator requests archival.

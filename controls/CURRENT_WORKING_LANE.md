@@ -1,16 +1,17 @@
 # Current Working Lane
 
 ## Lane
-A1 - Veristio Press Book 1 Spanish Native Review Gap Repair v1
+A1 - Apply Claude Advisory Corrections to Book 1 Spanish Draft V3
 
 ## Doctrine
 Parallel Trailing Localization
 
 ## Current Tranche Scope
-- Ground the Multilingual Production repo and prior Book 1 native-review hold surfaces.
-- Create reviewer-program gap repair artifacts for identifying, qualifying, onboarding, and documenting a real native-language reviewer.
+- Ground the Multilingual Production repo and prior Book 1 Spanish Draft V2/native-review hold surfaces.
+- Use Claude advisory feedback supplied by the controller/user as advisory correction input only.
+- Create Book 1 Chapter 1 Spanish Draft V3 with safe orthographic/accent and phrasing corrections.
+- Record terminology decisions for IA, workflow/checklist/draft/deliverables/dashboard terms, `contribuidor`, and `fuente única de verdad`.
 - Preserve native review execution/hold decision as `HOLD_FOR_NATIVE_REVIEWER_ASSIGNMENT` until a real named reviewer is documented.
-- Record gap repair status as `HOLD_FOR_OPERATOR_REVIEWER_SELECTION`.
 - Keep named human, native-language, technical, final sync/proof, metadata, ISBN, proof, and release gates pending.
 - Preserve publication/release as blocked.
 - Install verifier coverage and execute required gates.
@@ -19,9 +20,11 @@ Parallel Trailing Localization
 ## Stop Conditions
 - Canonical Multilingual repo root or remote target is not the expected project.
 - Starting HEAD diverges from expected and divergence is not understood.
-- Native-review hold or assignment packet is missing.
-- Reviewer selection would require guessing or inventing a reviewer.
-- Native-language review result would be implied without actual documented review.
-- Gap repair artifacts would imply publication readiness or release readiness.
+- Draft V2 is missing.
+- Claude advisory corrections would require claiming named human/native review completion.
+- Corrections would imply final review, publication readiness, release approval, or upload readiness.
 - Verifier failure.
 - Unrelated dirty files appear.
+
+## Known Start Note
+The requested `Current known HEAD` was `70b2fda5ab7835a1bf6103a3a099a16ca484d5ce`. Actual start for this tranche was later because the reviewer-copy export commit and the revert of the mistaken contract-alignment correction were already present and understood. The working tree also contained pre-existing untracked advisory input under `inputs/`; it was used as input and not staged by this tranche.
