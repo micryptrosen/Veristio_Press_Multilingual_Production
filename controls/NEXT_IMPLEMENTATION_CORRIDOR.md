@@ -1,21 +1,18 @@
 # Next Implementation Corridor
 
 ## Corridor Goal
-VERISTIO_PRESS_BOOK_1_SPANISH_DRAFT_V4_REVIEW_COPY_EXPORT_V1
+VERISTIO_PRESS_BOOK_1_SPANISH_NATIVE_REVIEWER_SELECTION_OR_EXECUTION_V1
 
 ## Readiness Source
 - Draft V4: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_SPANISH_DRAFT_V4.md`
-- Draft V4 change log: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_SPANISH_DRAFT_V4_CHANGE_LOG_V1.md`
-- Draft V4 advisory disposition: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_SPANISH_DRAFT_V4_ADVISORY_DISPOSITION_V1.md`
-- V4 receipt: `docs/governance/receipts/BOOK_1_SPANISH_DRAFT_V4_REAL_DEEPSEEK_CLAUDE_CORRECTIONS_RECEIPT_V1.md`
-- Review queue: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_SPANISH_REVIEW_QUEUE_V1.md`
+- Draft V4 review copy DOCX: `exports/review_copies/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_SPANISH_DRAFT_V4_REVIEW_COPY.docx`
+- Review copy export receipt: `docs/governance/receipts/BOOK_1_SPANISH_DRAFT_V4_REVIEW_COPY_EXPORT_RECEIPT_V1.md`
+- Native review status decision: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_NATIVE_REVIEW_STATUS_DECISION_V1.md`
+- Reviewer assignment register: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_SPANISH_REVIEWER_ASSIGNMENT_REGISTER_V1.md`
 
-## Current Draft Posture
-- Current Spanish draft: `BOOK_1_CHAPTER_1_SPANISH_DRAFT_V4.md`.
-- English lock version: `BOOK1-CH01-EN-LOCK-V1`.
-- Locked source commit: `bd0441d4a5cf8e5862a61421b3d515eb079afee4`.
-- Claude advisory: applied as advisory-only input.
-- Real DeepSeek advisory: applied as advisory-only input.
+## Current Review Copy Posture
+- DOCX reviewer copy: created.
+- PDF reviewer copy: not created because LibreOffice/soffice and Microsoft Word COM export were unavailable.
 - Native-language review: pending.
 - Human review: pending.
 - Technical review: pending.
@@ -24,14 +21,14 @@ VERISTIO_PRESS_BOOK_1_SPANISH_DRAFT_V4_REVIEW_COPY_EXPORT_V1
 - Publication/release boundary: blocked.
 
 ## Immediate Next Steps
-1. Export a human-readable Draft V4 review copy for native reviewer routing.
-2. Preserve the Draft V4 advisory-only boundaries in the reviewer copy.
-3. Do not claim native review completion from the export.
-4. Keep publication/release blocked until all required review and release gates pass.
+1. Select or execute a real named native-language reviewer workflow.
+2. If no reviewer is available, preserve reviewer-pending hold state.
+3. If a reviewer is available, document reviewer name/date/status and findings in governed review artifacts.
+4. Do not claim review completion from export alone.
+5. Keep publication/release blocked until all required review and release gates pass.
 
 ## Exit Criteria
-- Draft V4 review copy export exists.
-- Export verifier confirms required boundaries.
+- Native reviewer selection/execution posture is documented.
 - No Book 1 repo mutation occurs.
-- No human/native/final review completion is claimed.
+- No human/native/final review completion is claimed without documented reviewer evidence.
 - No publication/release readiness is claimed.

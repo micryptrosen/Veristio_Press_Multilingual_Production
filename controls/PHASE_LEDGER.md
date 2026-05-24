@@ -17,5 +17,6 @@
 | A4H | Restore Real DeepSeek API Advisory Integration | Complete With Live API Connectivity | 2026-05-23 | 2026-05-23 | Real DeepSeek API runner and connectivity verifier created; DEEPSEEK_API_KEY detected without printing; live API connectivity succeeded |
 | A4I | Rerun Draft V3 Real DeepSeek Advisory Review | Complete With Real API Review | 2026-05-23 | 2026-05-23 | Book 1 Chapter 1 Spanish Draft V3 received a real DeepSeek API-backed advisory review using deepseek-v4-flash; Draft V3 was not altered; Draft V4 corridor is recommended |
 | A4J | Real DeepSeek and Claude Advisory Corrections to Draft V4 | Complete With Review Copy Ready | 2026-05-23 | 2026-05-23 | Draft V4 applies accepted advisory corrections only; no title localization, native/human/final review, publication readiness, or release approval claimed |
-| A4K | Draft V4 Review Copy Export | Planned | TBD | TBD | Create reviewer-readable Draft V4 export while preserving advisory-only and non-publication boundaries |
+| A4K | Draft V4 Review Copy Export | Complete With DOCX Export | 2026-05-23 | 2026-05-23 | Reviewer-readable Draft V4 DOCX created; PDF export unavailable because document conversion tooling was unavailable; review and release gates remain pending |
+| A4L | Native Reviewer Selection Or Execution | Planned | TBD | TBD | Select or execute documented native-language review workflow without treating export as review completion |
 | A5 | Multi-language Expansion | Planned | TBD | TBD | Replicate controls for additional target languages after Spanish process proof |
