@@ -13,7 +13,7 @@ HOLD_FOR_NATIVE_REVIEWER_ASSIGNMENT
 
 ## Decision Basis
 
-Draft V3, Claude advisory correction pass, native-review prep packet, native-review instructions, and native-review checklist are ready for routing. Claude advisory feedback was applied only as advisory correction input. No named native-language reviewer is assigned in repo truth, so native-language review remains held until reviewer assignment.
+Draft V4, Claude advisory correction pass, real DeepSeek API advisory review, native-review prep packet, native-review instructions, and native-review checklist are ready for routing/export. Claude and DeepSeek advisory inputs were applied only as advisory correction input. No named native-language reviewer is assigned in repo truth, so native-language review remains held until reviewer assignment.
 
 ## Assignment Status
 
@@ -21,9 +21,11 @@ Draft V3, Claude advisory correction pass, native-review prep packet, native-rev
 
 ## Current Draft
 
-- Draft V3: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_SPANISH_DRAFT_V3.md`
+- Draft V4: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_SPANISH_DRAFT_V4.md`
+- Draft V4 change log: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_SPANISH_DRAFT_V4_CHANGE_LOG_V1.md`
+- Draft V4 advisory disposition: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_SPANISH_DRAFT_V4_ADVISORY_DISPOSITION_V1.md`
 - Claude advisory correction pass: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_CLAUDE_ADVISORY_CORRECTION_PASS_V1.md`
-- Draft V3 change log: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_SPANISH_DRAFT_V3_CHANGE_LOG_V1.md`
+- Real DeepSeek advisory review: `inputs/advisory_reviews/deepseek/BOOK_1_CHAPTER_1_SPANISH_DRAFT_V3_REAL_DEEPSEEK_REVIEW_V1.md`
 
 ## Execution Or Hold Record
 
@@ -33,6 +35,7 @@ Draft V3, Claude advisory correction pass, native-review prep packet, native-rev
 
 ## Conditions Remaining
 
+- Export Draft V4 review copy for reviewer routing.
 - Assign a real named native-language reviewer.
 - Perform and document native-language review only after assignment.
 - Resolve or route native-review findings.
@@ -41,6 +44,7 @@ Draft V3, Claude advisory correction pass, native-review prep packet, native-rev
 ## Boundary
 
 - Claude advisory correction pass is not native-language review.
+- Real DeepSeek advisory correction pass is not native-language review.
 - Native-language review remains pending.
 - Human reviewer signoff remains pending.
 - Technical review remains pending.
@@ -53,4 +57,4 @@ Book 1 remains the canonical English owner for manuscript text, claims, citation
 
 ## Next Corridor
 
-`VERISTIO_PRESS_BOOK_1_SPANISH_REVIEWER_SELECTION_OR_NATIVE_REVIEW_EXECUTION_V1`
+`VERISTIO_PRESS_BOOK_1_SPANISH_DRAFT_V4_REVIEW_COPY_EXPORT_V1`
