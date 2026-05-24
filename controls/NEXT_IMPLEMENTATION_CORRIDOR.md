@@ -1,36 +1,34 @@
 # Next Implementation Corridor
 
 ## Corridor Goal
-RERUN_BOOK_1_CHAPTER_1_SPANISH_DRAFT_V3_REAL_DEEPSEEK_ADVISORY_REVIEW_V1
+APPLY_REAL_DEEPSEEK_AND_CLAUDE_ADVISORY_CORRECTIONS_TO_BOOK_1_SPANISH_DRAFT_V4
 
 ## Readiness Source
-- DeepSeek API integration: `docs/integration/DEEPSEEK_API_ADVISORY_INTEGRATION_V1.md`
-- Runner: `tools/deepseek_advisory_review.py`
-- Connectivity verifier: `tools/verify_deepseek_api_connectivity.ps1`
-- Integration receipt: `docs/governance/receipts/DEEPSEEK_API_ADVISORY_INTEGRATION_RESTORE_RECEIPT_V1.md`
+- Current Spanish draft: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_SPANISH_DRAFT_V3.md`
+- Claude correction pass: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_CLAUDE_ADVISORY_CORRECTION_PASS_V1.md`
+- V3 change log: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_SPANISH_DRAFT_V3_CHANGE_LOG_V1.md`
+- Prior provenance-only DeepSeek slot: `inputs/advisory_reviews/deepseek/BOOK_1_CHAPTER_1_SPANISH_DRAFT_V3_DEEPSEEK_REVIEW_V1.md`
+- Real DeepSeek API review: `inputs/advisory_reviews/deepseek/BOOK_1_CHAPTER_1_SPANISH_DRAFT_V3_REAL_DEEPSEEK_REVIEW_V1.md`
+- Real DeepSeek comparison: `docs/packets/book_1_human_creativity_ai_synthesis/BOOK_1_CHAPTER_1_SPANISH_DRAFT_V3_REAL_DEEPSEEK_COMPARISON_V1.md`
+- Real DeepSeek receipt: `docs/governance/receipts/BOOK_1_SPANISH_DRAFT_V3_REAL_DEEPSEEK_REVIEW_RECEIPT_V1.md`
 
 ## Verified API Configuration
-- `DEEPSEEK_API_KEY` detected: yes
-- API base URL: `https://api.deepseek.com`
-- Endpoint: `/chat/completions`
-- Preferred model: `deepseek-v4-flash`
-- Fallback model: `deepseek-v4-pro`
-- Observed successful models during live verifier runs: `deepseek-v4-flash`; `deepseek-v4-pro` via fallback after one preferred-model empty-content response.
-- Real API call succeeded: yes
+- `DEEPSEEK_API_KEY` detected: yes, without printing.
+- API base URL: `https://api.deepseek.com`.
+- Endpoint: `/chat/completions`.
+- Required model used for Draft V3 review: `deepseek-v4-flash`.
+- Real API-backed Draft V3 advisory review succeeded: yes.
 
 ## Immediate Next Steps
-1. Rerun Book 1 Chapter 1 Spanish Draft V3 advisory review using `tools/deepseek_advisory_review.py` and the real DeepSeek API.
-2. Supersede the prior non-API-backed DeepSeek advisory artifact with a real API-backed advisory output or clearly mark the relationship in governance records.
-3. Preserve Draft V3 unless the next corridor explicitly creates a follow-on advisory output only.
-4. Do not create Draft V4 until the combined-advisory correction corridor is opened after real API-backed review.
-5. Keep Claude and DeepSeek advisory inputs classified as advisory-only.
-6. Keep native-language review held until a real named reviewer is selected and documented.
-7. Keep final sync/proof, metadata/ISBN, proof, permission, QA, and release gates pending.
-8. Keep publication/release blocked until human/native/final review and all release gates pass.
+1. Apply only accepted Claude and real DeepSeek advisory corrections into `BOOK_1_CHAPTER_1_SPANISH_DRAFT_V4.md`.
+2. Preserve Draft V3 as the reviewed input and do not rewrite the real DeepSeek review artifact.
+3. Keep all advisory outputs classified as advisory-only, not human/native/final review.
+4. Keep native-language reviewer assignment/review pending unless a real named reviewer is documented.
+5. Keep publication/release blocked until human/native/final review, metadata/ISBN, proof, permission, QA, source-lock, and release gates pass.
 
 ## Exit Criteria
-- A real API-backed DeepSeek advisory review output is committed, or API failure is recorded honestly.
-- No API key is printed, written, or committed.
+- Draft V4 is created from accepted advisory corrections only.
+- A V4 change log maps accepted Claude and real DeepSeek items to actual changes.
 - No Book 1 repo mutation occurs.
-- Advisory inputs are not treated as human/native/final review.
+- No human/native/final review completion is claimed.
 - No publication/release readiness is claimed.
