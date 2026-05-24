@@ -1,7 +1,7 @@
 # Arrival Anchor (Current)
 
 ## Anchor
-A1 - Apply Claude Advisory Corrections to Book 1 Spanish Draft V3
+A1 - Book 1 Chapter 1 Spanish Draft V3 DeepSeek Advisory Review V1
 
 ## Canonical Repository
 D:\Dev\CGPT\Projects\Veristio\Veristio_Press_Multilingual_Production
@@ -20,14 +20,15 @@ Book 1 remains the canonical English owner for manuscript text, readiness, claim
 - English state: `EN_TRANSLATION_READY_WITH_CONDITIONS`.
 - Reviewer coverage decision: `PROVISIONAL_INTERNAL_REVIEW_ALLOWED_FOR_DRAFT_ONLY`.
 - Current Spanish draft: `BOOK_1_CHAPTER_1_SPANISH_DRAFT_V3.md`.
-- Draft status: `ES_TRANSLATION_DRAFT_V3_ADVISORY_CORRECTED_NATIVE_REVIEW_HELD_FOR_OPERATOR_SELECTION`.
+- Draft status: `ES_TRANSLATION_DRAFT_V3_DEEPSEEK_ADVISORY_REVIEWED_DRAFT_V4_RECOMMENDED`.
+- Claude advisory source: `inputs/advisory_reviews/claude/BOOK_1_CHAPTER_1_SPANISH_DRAFT_V2_CLAUDE_REVIEW_V1.txt`.
 - Claude advisory correction status: `CLAUDE_ADVISORY_CORRECTIONS_APPLIED_TO_DRAFT_V3`.
-- Advisory source classification: Claude advisory feedback is correction input only, not named human/native review.
-- Review status decision: `PROVISIONAL_REVIEW_PASS_WITH_REVISIONS_REQUIRED`.
-- Post-revision status decision: `READY_FOR_NATIVE_LANGUAGE_REVIEW_WITH_CONDITIONS`.
-- Terminology status: `CLAUDE_ADVISORY_CORRECTIONS_APPLIED_NAMED_REVIEW_PENDING`.
-- Revision queue status: `ADVISORY_CORRECTIONS_APPLIED_NATIVE_REVIEW_PENDING`.
-- Native-review prep status: `NATIVE_REVIEW_PREP_READY_WITH_CONDITIONS`.
+- DeepSeek advisory review: `inputs/advisory_reviews/deepseek/BOOK_1_CHAPTER_1_SPANISH_DRAFT_V3_DEEPSEEK_REVIEW_V1.md`.
+- DeepSeek advisory review status: `DEEPSEEK_ADVISORY_REVIEW_RECORDED_DRAFT_V3`.
+- Advisory comparison status: `DEEPSEEK_ADVISORY_COMPARISON_RECORDED_DRAFT_V3`.
+- Advisory source classification: Claude and DeepSeek are advisory only, not named human/native review.
+- Draft V3 mutation status: not altered in this tranche.
+- Draft V4 status: not created in this tranche.
 - Native-review assignment status: `NATIVE_REVIEW_PACKET_READY_REVIEWER_PENDING`.
 - Native-review execution/hold decision: `HOLD_FOR_NATIVE_REVIEWER_ASSIGNMENT`.
 - Native-review gap repair status: `HOLD_FOR_OPERATOR_REVIEWER_SELECTION`.
@@ -37,7 +38,7 @@ Book 1 remains the canonical English owner for manuscript text, readiness, claim
 - Final sync/proof review: pending.
 - Metadata/ISBN/release gates: pending.
 - Publication/release boundary: blocked.
-- Next corridor: `VERISTIO_PRESS_BOOK_1_SPANISH_REVIEWER_SELECTION_OR_NATIVE_REVIEW_EXECUTION_V1`.
+- Next corridor: `APPLY_COMBINED_ADVISORY_CORRECTIONS_TO_BOOK_1_SPANISH_DRAFT_V4`.
 
 ## Continuation Instruction
-Resume from `controls/CURRENT_WORKING_LANE.md`, run the Draft V3 verifier and standard gates, and preserve the Book 1 canonical manuscript authority boundary. Select and document a real native-language reviewer before any native-language review execution; otherwise keep the lane held without human/native/final, publication, or release claims. Claude advisory corrections may inform Draft V3, but they do not complete native-language review.
+Resume from `controls/CURRENT_WORKING_LANE.md`, run the DeepSeek advisory review verifier and standard gates, and preserve the Book 1 canonical manuscript authority boundary. Apply combined advisory corrections to Draft V4 only in the next corridor if accepted; do not treat Claude or DeepSeek advisory input as human/native/final review. Select and document a real native-language reviewer before any native-language review execution; otherwise keep the lane held without human/native/final, publication, or release claims.

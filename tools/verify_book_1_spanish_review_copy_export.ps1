@@ -85,18 +85,23 @@ if (Test-Path -LiteralPath $pdfPath) {
     }
 }
 
-$nextCorridor = 'VERISTIO_PRESS_BOOK_1_SPANISH_REVIEWER_SELECTION_OR_NATIVE_REVIEW_EXECUTION_V1'
+$allowedNextCorridors = @(
+    'VERISTIO_PRESS_BOOK_1_SPANISH_REVIEWER_SELECTION_OR_NATIVE_REVIEW_EXECUTION_V1',
+    'APPLY_COMBINED_ADVISORY_CORRECTIONS_TO_BOOK_1_SPANISH_DRAFT_V4'
+)
 $corridorFound = $false
 foreach ($file in @($nextCorridorFile, $handoffFile)) {
     if (Test-Path -LiteralPath $file) {
         $content = Get-Content -LiteralPath $file -Raw
-        if ($content -match [regex]::Escape($nextCorridor)) {
-            $corridorFound = $true
+        foreach ($nextCorridor in $allowedNextCorridors) {
+            if ($content -match [regex]::Escape($nextCorridor)) {
+                $corridorFound = $true
+            }
         }
     }
 }
 if (-not $corridorFound) {
-    Add-Failure "Expected next corridor is not present: $nextCorridor"
+    Add-Failure "Expected next corridor is not present: $($allowedNextCorridors -join ' or ')"
 }
 
 if ($failures.Count -gt 0) {

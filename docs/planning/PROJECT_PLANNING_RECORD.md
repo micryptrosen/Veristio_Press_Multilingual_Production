@@ -2,16 +2,15 @@
 
 ## Planning Snapshot
 - Date: 2026-05-23
-- Phase: A1 Project Birth, Integration Contracting, Pilot Selection, Packet Preparation, Packet Refresh, Glossary/Reviewer Setup, Reviewer Assignment, Draft Packet, First Internal Review, Draft V2 Prep, Native Review Assignment Prep, Native Review Hold, Native Reviewer Gap Repair, and Draft V3 Claude Advisory Corrections
-- Primary Objective: Apply Claude advisory orthographic/accent and safe phrasing corrections to Book 1 Chapter 1 Spanish Draft V2 to create Draft V3 without pretending human/native/final review has occurred.
+- Phase: A1 Project Birth, Integration Contracting, Pilot Selection, Packet Preparation, Packet Refresh, Glossary/Reviewer Setup, Reviewer Assignment, Draft Packet, First Internal Review, Draft V2 Prep, Native Review Assignment Prep, Native Review Hold, Native Reviewer Gap Repair, Draft V3 Claude Advisory Corrections, and Draft V3 DeepSeek Advisory Review
+- Primary Objective: Record a DeepSeek advisory review of Book 1 Chapter 1 Spanish Draft V3, admit the existing Claude advisory source file, compare advisory findings, and route accepted safe items to a future Draft V4 without altering Draft V3.
 
 ## Planned Deliverables
-- Book 1 Chapter 1 Spanish Draft V3.
-- Claude advisory correction pass record.
-- Draft V3 change log.
-- Book 1 Spanish Draft V3 Claude advisory corrections receipt.
-- Draft V3 verifier and gate execution.
-- Updated review queue, revision queue, tracker, gap log, native-review status decision, controls, and handoff.
+- DeepSeek advisory review source file for Draft V3.
+- DeepSeek advisory comparison against Claude corrections and Draft V3.
+- Book 1 Spanish Draft V3 DeepSeek advisory review receipt.
+- DeepSeek advisory review verifier and gate execution.
+- Updated controls, planning record, and handoff.
 
 ## Current Packet Posture
 - Selected candidate: `CANDIDATE-001` - Human Creativity + AI Synthesis.
@@ -20,12 +19,11 @@
 - English lock version: `BOOK1-CH01-EN-LOCK-V1`.
 - Locked source commit: `bd0441d4a5cf8e5862a61421b3d515eb079afee4`.
 - Reviewer coverage decision: `PROVISIONAL_INTERNAL_REVIEW_ALLOWED_FOR_DRAFT_ONLY`.
-- Draft status: `ES_TRANSLATION_DRAFT_V3_ADVISORY_CORRECTED_NATIVE_REVIEW_HELD_FOR_OPERATOR_SELECTION`.
+- Draft status: `ES_TRANSLATION_DRAFT_V3_DEEPSEEK_ADVISORY_REVIEWED_DRAFT_V4_RECOMMENDED`.
 - Claude advisory correction status: `CLAUDE_ADVISORY_CORRECTIONS_APPLIED_TO_DRAFT_V3`.
-- Review status decision: `PROVISIONAL_REVIEW_PASS_WITH_REVISIONS_REQUIRED`.
-- Post-revision status decision: `READY_FOR_NATIVE_LANGUAGE_REVIEW_WITH_CONDITIONS`.
-- Terminology status: `CLAUDE_ADVISORY_CORRECTIONS_APPLIED_NAMED_REVIEW_PENDING`.
-- Revision queue: advisory corrections applied, named/native review pending.
+- DeepSeek advisory review status: `DEEPSEEK_ADVISORY_REVIEW_RECORDED_DRAFT_V3`.
+- Advisory comparison status: `DEEPSEEK_ADVISORY_COMPARISON_RECORDED_DRAFT_V3`.
+- Revision queue: Draft V4 correction candidates identified, no Draft V4 created in this tranche.
 - Native-review prep: ready with conditions.
 - Native-review assignment status: `NATIVE_REVIEW_PACKET_READY_REVIEWER_PENDING`.
 - Native-review execution/hold decision: `HOLD_FOR_NATIVE_REVIEWER_ASSIGNMENT`.
@@ -36,15 +34,15 @@
 - Final sync/proof review: pending.
 - Metadata/ISBN/release gates: pending.
 - Publication/release boundary: blocked.
-- Required next corridor: `VERISTIO_PRESS_BOOK_1_SPANISH_REVIEWER_SELECTION_OR_NATIVE_REVIEW_EXECUTION_V1`.
+- Required next corridor: `APPLY_COMBINED_ADVISORY_CORRECTIONS_TO_BOOK_1_SPANISH_DRAFT_V4`.
 
 ## Risk Controls
-- Stop on path or remote mismatch.
-- Treat known HEAD mismatch as understood only because later reviewer-copy and correction-revert commits are already present.
-- Stop if Draft V2 is missing.
-- Stop if advisory correction input would require claiming named human/native/final review.
+- Stop on path, branch, remote, or HEAD mismatch.
+- Stop if Draft V3 is missing.
+- Stop if advisory review would require altering Draft V3 or creating Draft V4.
+- Stop if advisory input would require claiming named human/native/final review.
 - Stop if any artifact implies canonical English authority transfer.
 - Stop if any artifact claims human/native/final review completion.
 - Stop if any artifact claims Spanish publication readiness.
 - Stop on verifier failures.
-- Leave pre-existing untracked advisory input unstaged unless operator requests archival.
+- Admit Claude source only if it exists; otherwise record warning and continue if committed Claude correction pass exists.

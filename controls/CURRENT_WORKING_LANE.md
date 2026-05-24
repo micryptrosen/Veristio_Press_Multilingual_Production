@@ -1,16 +1,18 @@
 # Current Working Lane
 
 ## Lane
-A1 - Apply Claude Advisory Corrections to Book 1 Spanish Draft V3
+A1 - Book 1 Chapter 1 Spanish Draft V3 DeepSeek Advisory Review V1
 
 ## Doctrine
 Parallel Trailing Localization
 
 ## Current Tranche Scope
-- Ground the Multilingual Production repo and prior Book 1 Spanish Draft V2/native-review hold surfaces.
-- Use Claude advisory feedback supplied by the controller/user as advisory correction input only.
-- Create Book 1 Chapter 1 Spanish Draft V3 with safe orthographic/accent and phrasing corrections.
-- Record terminology decisions for IA, workflow/checklist/draft/deliverables/dashboard terms, `contribuidor`, and `fuente única de verdad`.
+- Ground the Multilingual Production repo and prior Book 1 Spanish Draft V3 surfaces.
+- Admit the Claude advisory source file if it exists and matches the expected input path.
+- Record a DeepSeek advisory review file for Draft V3 and compare it against the Claude advisory correction pass.
+- Treat both Claude and DeepSeek as advisory-only inputs.
+- Do not edit Book 1.
+- Do not alter Draft V3 and do not create Draft V4 in this tranche.
 - Preserve native review execution/hold decision as `HOLD_FOR_NATIVE_REVIEWER_ASSIGNMENT` until a real named reviewer is documented.
 - Keep named human, native-language, technical, final sync/proof, metadata, ISBN, proof, and release gates pending.
 - Preserve publication/release as blocked.
@@ -20,11 +22,9 @@ Parallel Trailing Localization
 ## Stop Conditions
 - Canonical Multilingual repo root or remote target is not the expected project.
 - Starting HEAD diverges from expected and divergence is not understood.
-- Draft V2 is missing.
-- Claude advisory corrections would require claiming named human/native review completion.
-- Corrections would imply final review, publication readiness, release approval, or upload readiness.
+- Draft V3 is missing.
+- Advisory review would require altering Draft V3 or creating Draft V4.
+- Advisory review would imply named human/native review completion.
+- Any artifact would imply final review, publication readiness, release approval, or upload readiness.
 - Verifier failure.
 - Unrelated dirty files appear.
-
-## Known Start Note
-The requested `Current known HEAD` was `70b2fda5ab7835a1bf6103a3a099a16ca484d5ce`. Actual start for this tranche was later because the reviewer-copy export commit and the revert of the mistaken contract-alignment correction were already present and understood. The working tree also contained pre-existing untracked advisory input under `inputs/`; it was used as input and not staged by this tranche.
